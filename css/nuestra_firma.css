@@ -1,0 +1,106 @@
+.nav-item:hover{
+    font-weight: bold;
+}
+.zoom-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.zoom-image {
+    width: 100%;
+    height: auto;
+    animation: zoomInOut 10s infinite alternate;
+}
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5); /* Zoom de entrada */
+    }
+    100% {
+        transform: scale(1); /* Zoom de salida */
+    }
+}
+
+#titulo_nuestra_firma{
+    text-align: justify;
+    margin-top: 50px;
+    font-size: 32px;
+    color:#808080;
+    font-family: "Red Hat Display", "sans-serif";
+}
+#textoemotivo_nuestra_firma{
+    text-align: justify;
+    font-family: "sans-serif";
+    font-size: 40px;
+    color:#2C2C2C;
+    font-weight: bold;
+}
+#texto_nuestra_firma{
+    text-align: justify;
+    font-family: "Red Hat Display", "sans-serif";
+    font-size: 19px;
+    white-space: pre-line; /* Ensures that the line breaks in the HTML are respected */
+}
+
+#nosotros_equipo{
+    width: 100%;
+}
+
+#equipo_nuestra_firma{
+    font-size: 45px;
+    margin: 20px 0 20px 0; 
+    text-align: center;
+    color: #2C2C2C;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "Red Hat Display", "sans-serif";
+}
+.subtitulo_nosotros{
+    font-size: 32px;
+    color: white;
+}
+
+#vision{
+    background-color: #B24343;
+    height: 300px;
+    color: white;
+    font-size: 24px;
+}
+
+#mision{
+    background-color: #112959;
+    height: 300px;
+    color: white;
+    font-size: 24px;
+}
+
+.texto_alcance_nosotros{
+    white-space: pre-line;
+    width: 100%;
+    color: white;
+    font-size: 24px;
+}
+
+#slogan_nuestra_firma {
+    position: absolute;
+    top: 25%;
+    font-size: 32px;
+    white-space: pre-line;
+    border-radius: 5px;
+    padding: 0 10px 10px 10px; /* Removes top padding, keeps padding on other sides */
+    color: white; /* Choose a color that contrasts with your video */
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#contabilidad_slogan{
+    font-size: 50px;
+    
+}
+#gastos_slogan{
+    font-size: 38px;
+    /* color:  #B1383D;; */
+}

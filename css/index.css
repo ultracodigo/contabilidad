@@ -1,0 +1,53 @@
+.nav-item:hover{
+    font-weight: bold;
+}
+video {
+    width: 100%;
+    height: auto;
+}
+/* #texto_inicio{
+    padding: 4px;
+    background-color: gray;
+    color: white;
+    width: 300px;
+    position: fixed;
+} */
+
+.contenedor_video {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire container */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#texto_inicio {
+    position: absolute;
+    font-size: 50px;
+    top: 60px;
+    left: 20px; /* Adjust as needed */
+    color: white; /* Choose a color that contrasts with your video */
+    background: rgba(0, 0, 0, 0.5); /* Optional: Adds a semi-transparent background for better readability */
+    padding: 0 10px 10px 10px; /* Removes top padding, keeps padding on other sides */
+    border-radius: 5px; /* Optional: Rounds the corners of the background */
+    white-space: pre-line; /* Ensures that the line breaks in the HTML are respected */
+}
+.splide__slide{
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.splide__slide:hover, 
+.splide__slide:hover h4,
+.splide__slide:hover p {
+    background-color: #00245a;
+    color: white !important;
+}

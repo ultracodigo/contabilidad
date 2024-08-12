@@ -1,0 +1,10 @@
+#titulo_sevicio{
+    font-size: 2.5rem;
+    margin: 20px 0 20px 0;
+}
+.nav-item:hover{
+    font-weight: bold;
+}
+.servicios{
+    text-decoration: none;
+}
