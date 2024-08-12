@@ -1,11 +1,207 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
+
 <body>
-    simple test
+    <div class="container">
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./img/logo.svg" alt="Bootstrap" width="30" height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nuestra_firma.html">Nuestra Firma</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="contenedor_video">
+        <video autoplay muted loop>
+            <source src="./video/negocio.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h3 id="texto_inicio">Gestión contable para
+            PYMES. Estamos aquí
+            para asistirte en la toma
+            de decisiones
+        </h3>
+    </div>
+
+    <div class="container">
+        <h3 class="text-center mt-4 mb-4">
+            NUESTROS SERVICIOS
+        </h3>
+    </div>
+
+    <div class="slide-intro-wrap">
+        <div id="splide-intro" class="splide" aria-label="Beautiful Images">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img src="./img/servicios1b.png" alt="">
+                        <h4 class="text-black s_white">Asesoría y outsourcing contable</h4>
+                        <p class="text-black s_white">Brindamos asesoría y outsourcing administrativo integral. Nos
+                            encargamos
+                            de su gestión contable, tributaria, laboral y administrativa.</p>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="./img/servicios7b.png" alt="">
+                        <h4 class="text-black">Constitución de empresas</h4>
+                        <p class="text-black">¿Quieres crear una empresa en Perú? ¡Nosotros lo hacemos por ti! Desde su
+                            gestión inicial hasta el funcionamiento de la nueva sociedad. Brindamos servicios de
+                            representación legal y fiscal.</p>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="./img/servicios3b.png" alt="">
+                        <h4 class="text-black">Asesoría financiera y auditoría</h4>
+                        <p class="text-black">Nuestro estudio contable cuenta con profesionales de amplia experiencia en
+                            servicios financieros, precios de transferencia, adopción e implementación de NIIF (IFRS) y
+                            auditorías financieras, operativas y tributarias.</p>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="./img/servicios4b.png" alt="">
+                        <h4 class="text-black">Outsourcing de inventarios físicos</h4>
+                        <p class="text-black">Te ayudamos a organizar y mantener el control administrativo y operativo
+                            de su logística, almacén y activo fijo.</p>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="./img/servicios5b.png" alt="">
+                        <h4 class="text-black">Asesoría Legal Empresarial y Corporativa</h4>
+                        <p class="text-black">¿Busca una Asesoría Legal confiable? ¡Está en el lugar correcto! Somos
+                            especialistas en Derecho Comercial, Civil y Penal al servicio de las Mypes, medianas y
+                            empresas.</p>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="./img/servicios2b.png" alt="">
+                        <h4 class="text-black">Asesoría Búsqueda y Selección de Personal</h4>
+                        <p class="text-black">Con nuestra ayuda especializada, encontrará el talento humano calificado
+                            que su empresa necesita.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3 class="text-center mt-4 mb-4">NUESTRA EXPERIENCIA NOS RESPALDA</h3>
+        <p class="text-center">Con más de <span class="fw-bold">17 años de trayectoria</span> en el sector, hemos
+            acompañado a diversas empresas, desde pequeñas startups hasta grandes corporaciones, en su camino hacia el
+            éxito financiero. Nuestro equipo de profesionales altamente capacitados está comprometido en ofrecer
+            soluciones administrativas, contables y financieras adaptadas a las necesidades específicas de cada cliente.
+        </p>
+        <img src="./img/team.jpg" width="100%" alt="">
+        <p class="text-center mt-5 mb-5 fs-2">
+            Tu éxito es nuestro compromiso<br>
+            <span class="badge text-bg-danger fs-2">La experiencia marca la diferencia</span>
+        </p>
+
+        <h3 class="text-center mt-4 mb-4">
+            <span class="text-light-emphasis">¿POR QUÉ ELEGIR</span>
+            <span class="text-dark">NUESTROS SERVICIOS?</span>
+        </h3>
+        <p class="text-center">
+            En nuestra firma de consultoría contable, nos dedicamos a proporcionar <span class="fw-bold">servicios de
+                excelencia</span> que se
+            adaptan a las necesidades específicas de cada cliente, dentro del marco normativo del país. Contamos con un
+            equipo multidisciplinario de profesionales cualificados, con vocación de servicio y comprometidos con la
+            excelencia. Nuestra oferta incluye:
+        </p>
+
+        <div class="d-flex justify-content-center">
+            <ul class="list-group">
+                <li class="list-group-item fw-bold"><img src="./img/01.png" alt="Twbs" width="40" height="40"
+                        class="rounded-circle flex-shrink-0">
+                    Responsabilidad, compromiso y resultados.</li>
+                <li class="list-group-item fw-bold"><img src="./img/02.png" alt="Twbs" width="40" height="40"
+                        class="rounded-circle flex-shrink-0">
+                    Entrega mensual de estados financieros 100% analizados.</li>
+                <li class="list-group-item fw-bold"><img src="./img/03.png" alt="Twbs" width="40" height="40"
+                        class="rounded-circle flex-shrink-0">
+                    Cumplimiento estricto y puntual de declaraciones fiscales.</li>
+                <li class="list-group-item fw-bold"><img src="./img/04.png" alt="Twbs" width="40" height="40"
+                        class="rounded-circle flex-shrink-0">
+                    Somos tu socio estratégico que busca aportar valor agregado a tu gestión administrativa.</li>
+                <li class="list-group-item fw-bold"><img src="./img/05.png" alt="Twbs" width="40" height="40"
+                        class="rounded-circle flex-shrink-0">
+                    Somos una empresa veraz, transparente, confiable y empática con las necesidades de cada cliente.
+                </li>
+                <li class="list-group-item fw-bold"><img src="./img/06.png" alt="Twbs" width="40" height="40"
+                        class="rounded-circle flex-shrink-0">
+                    Cumplimos nuestra labor con eficiencia y eficacia dentro de los plazos acordados</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">© 2024 Compañía, Inc.</font>
+                </font>
+            </p>
+
+            <a href="/"
+                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <img src="./img/logo.svg" alt="logo" width="48px">
+            </a>
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Hogar</font>
+                        </font>
+                    </a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Características</font>
+                        </font>
+                    </a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Preguntas frecuentes</font>
+                        </font>
+                    </a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Acerca de</font>
+                        </font>
+                    </a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
 </body>
+
 </html>
